@@ -4,7 +4,9 @@ CREATE TABLE market (
 	market_id 			INT, #market ID
 	googleTrack 		VARCHAR(255),
 	name 				VARCHAR(255),
-	address 			VARCHAR(255)
+	address 			VARCHAR(255),
+	types               VARCHAR(255),
+	
 );
 
 CREATE TABLE products(

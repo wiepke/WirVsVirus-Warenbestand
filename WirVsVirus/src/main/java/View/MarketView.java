@@ -39,4 +39,11 @@ public class MarketView {
 
         return Response.status(Response.Status.OK).entity(new Market(marketId)).build();
     }
+
+    //search for längen und breitengrad
+
+    //place ID
+    //name
+    //adresse
+    //länge breitengrad
 }

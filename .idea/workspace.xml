@@ -10,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/WirVsVirus/src/main/java/DataObjects/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/WirVsVirus/src/main/java/DataObjects/Market.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WirVsVirus/src/main/java/DataObjects/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/WirVsVirus/src/main/java/DataObjects/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WirVsVirus/src/main/java/View/MarketView.java" beforeDir="false" afterPath="$PROJECT_DIR$/WirVsVirus/src/main/java/View/MarketView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/create_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/create_tables.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
