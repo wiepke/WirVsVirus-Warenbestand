@@ -32,20 +32,4 @@ public class DAOMarketInfo {
         connect.close();
         return market;
     }
-
-    public List<Product> getAllProducts(){
-        List<Product> result = new ArrayList<>();
-        connect.connect();
-        String query =
-                "SELECT * FROM products WHERE id = ?";
-        VereinfachtesResultSet vereinfachtesResultSet =
-                connect.issueSelectStatement(query);
-        while(vereinfachtesResultSet.next()){
-            Product product = new Product(
-                    vereinfachtesResultSet.getString("product_name"),
-                    1,
-                    new Timestamp(System.currentTimeMillis()));
-        }
-        return result;
-    }
 }
