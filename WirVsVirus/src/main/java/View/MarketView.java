@@ -59,7 +59,7 @@ public class MarketView {
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/products")
     public Response getAllProducts() {
-        DAOProductInfo daoproduct = new DAOMarketInfo();
+        DAOProductInfo daoproduct = new DAOProductInfo();
         return Response.status(Response.Status.OK).entity(daoproduct.getAllProducts()).build();
     }
 }
