@@ -18,5 +18,5 @@ CREATE TABLE market_stats (
 	market_id 		INT, #market ID
 	amountOfPeople 	INT,
 	sizeOfMarket 	INT,
-	averagePresenceTime DECIMAL
+	averagePresenceTime DECIMAL(6,4)
 );

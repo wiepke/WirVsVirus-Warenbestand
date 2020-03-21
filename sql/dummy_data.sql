@@ -8,19 +8,18 @@ INSERT INTO market VALUES
 	"store address, 1"
 );
 
-INSERT INTO market_stats 
-(
-	1, 
-	5, 
-	250, 
-	15.5
-);
-
-INSERT INTO products 
+INSERT INTO products VALUES
 (
 	1, 
 	"product name", 
 	5, 
-	NOW()
+	'2020-01-01 10:10:10'
 );
 
+INSERT INTO market_stats VALUES
+(
+	1,
+	5,
+	250,
+	15.5
+);
