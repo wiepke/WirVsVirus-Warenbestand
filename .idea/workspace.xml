@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10dc4e69-4a9e-4b52-b881-fd90e854b94a" name="Default Changelist" comment="" />
+    <list default="true" id="10dc4e69-4a9e-4b52-b881-fd90e854b94a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WirVsVirus/WirVsVirus.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WirVsVirus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WirVsVirus/src/main/java/Service/Calculations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WirVsVirus/src/main/java/View/MarketView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backend/Basics/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/WirVsVirus/src/main/java/DataObjects/Market.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backend/Basics/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/WirVsVirus/src/main/java/DataObjects/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backend/Communication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Frontend/index.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +32,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -30,10 +47,24 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fltrail" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\AWiep\OneDrive\Dokumente\IntelliJ\WirVsVirus-Warenbestand\src\Frontend" />
     </key>
@@ -61,10 +92,37 @@
       <option name="presentableId" value="Default" />
       <updated>1584733140190</updated>
       <workItem from="1584733144923" duration="281000" />
+      <workItem from="1584783511758" duration="5647000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1584784497217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584784497217" />
+    <state x="601" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584784512813">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584784512813" />
+    <state x="756" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584784518742">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584784518742" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1584783699625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584783699625" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1584785600996">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584785600996" />
+    <state x="342" y="140" key="new project wizard" timestamp="1584784461315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584784461315" />
   </component>
 </project>
