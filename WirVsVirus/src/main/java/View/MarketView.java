@@ -1,5 +1,6 @@
 package View;
 
+import DBCommunication.DAOMarketInfo;
 import DataObjects.Market;
 import DataObjects.MarketInput;
 import DataObjects.MarketSearch;
@@ -50,5 +51,14 @@ public class MarketView {
         }
         List<Market> markets = new ArrayList<>();
         return Response.status(Response.Status.OK).entity(markets).build();
+    }
+
+    @GET
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    @Path("/products")
+    public Response getAllProducts() {
+        DAOMarketInfo dao = new DAOMarketInfo();
+        return Response.status(Response.Status.OK).entity(dao.getAllProducts()).build();
     }
 }

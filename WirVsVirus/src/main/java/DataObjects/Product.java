@@ -38,11 +38,18 @@ public class Product {
         this.timeStamp = timeStamp;
     }
 
+<<<<<<< HEAD
     public int getMarketId() {
         return marketId;
     }
 
     public void setMarketId(int marketId) {
         this.marketId = marketId;
+=======
+    public Product(String name, Integer amount, Timestamp timeStamp) {
+        this.name = name;
+        this.amount = amount;
+        this.timeStamp = timeStamp;
+>>>>>>> 467a0ed889d866e5d3e4e232192602bc19b6e497
     }
 }
