@@ -18,12 +18,12 @@ CREATE TABLE product_market (
 	market_id 		INT, #market ID+
 	product_id      INT,
 	amount          INT,
+	recorded_at 	TIMESTAMP
 )
 
 CREATE TABLE products(
 	product_id      INT,
-	product_name 	VARCHAR(255),
-	recorded_at 	TIMESTAMP
+	product_name 	VARCHAR(255)
 );
 
 CREATE TABLE market_stats (

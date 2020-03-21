@@ -4,6 +4,7 @@ import java.sql.Timestamp;
 
 public class Product {
     private int productId;
+    private int marketId;
     private String name;
     private Integer amount;
     private java.sql.Timestamp timeStamp;
@@ -35,5 +36,13 @@ public class Product {
 
     public void setTimeStamp(Timestamp timeStamp) {
         this.timeStamp = timeStamp;
+    }
+
+    public int getMarketId() {
+        return marketId;
+    }
+
+    public void setMarketId(int marketId) {
+        this.marketId = marketId;
     }
 }
