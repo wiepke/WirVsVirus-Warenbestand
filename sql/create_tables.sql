@@ -20,7 +20,7 @@ CREATE TABLE product_market (
 	product_id      INT,
 	amount          INT,
 	recorded_at 	TIMESTAMP
-)
+);
 
 CREATE TABLE products(
 	product_id      INT,
