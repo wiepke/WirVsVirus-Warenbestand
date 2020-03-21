@@ -12,7 +12,7 @@ CREATE TABLE market (
 CREATE TABLE products(
 	market_id 		INT, #market ID
 	product_name 	VARCHAR(255),
-	ammount 		INT,
+	amount 		    INT,
 	recorded_at 	TIMESTAMP
 );
 
