@@ -1,5 +1,9 @@
 USE sichereseinkaufen
 
+drop table market;
+drop table products;
+drop table market_stats;
+
 CREATE TABLE market (
 	market_id 			UNIQUE INT,     # out own market ID
 	googleTrack 		VARCHAR(255),   # placeID from google maps
@@ -10,10 +14,15 @@ CREATE TABLE market (
 	lngtude             FLOAT
 );
 
+CREATE TABLE product_market (
+	market_id 		INT, #market ID+
+	product_id      INT,
+	amount          INT,
+)
+
 CREATE TABLE products(
-	market_id 		INT, #market ID
+	product_id      INT,
 	product_name 	VARCHAR(255),
-	amount 		    INT,
 	recorded_at 	TIMESTAMP
 );
 

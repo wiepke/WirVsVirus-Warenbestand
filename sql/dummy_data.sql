@@ -12,7 +12,8 @@ INSERT INTO market VALUES
 
 INSERT INTO products VALUES
 (
-	1, 
+	1,
+	1,
 	"product name", 
 	5, 
 	'2020-01-01 10:10:10'

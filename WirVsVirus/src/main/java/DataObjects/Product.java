@@ -3,15 +3,15 @@ package DataObjects;
 import java.sql.Timestamp;
 
 public class Product {
+    private int productId;
     private String name;
     private Integer amount;
     private java.sql.Timestamp timeStamp;
 
-    public Product(String name, Integer amount, Timestamp timeStamp) {
-        this.name = name;
-        this.amount = amount;
-        this.timeStamp = timeStamp;
+    public Product(int productId) {
+        this.productId = productId;
     }
+
 
     public String getName() {
         return name;
@@ -34,6 +34,12 @@ public class Product {
     }
 
     public void setTimeStamp(Timestamp timeStamp) {
+        this.timeStamp = timeStamp;
+    }
+
+    public Product(String name, Integer amount, Timestamp timeStamp) {
+        this.name = name;
+        this.amount = amount;
         this.timeStamp = timeStamp;
     }
 }
