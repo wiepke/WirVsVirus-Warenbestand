@@ -1,12 +1,13 @@
 USE sichereseinkaufen
 
 CREATE TABLE market (
-	market_id 			INT, #market ID
-	googleTrack 		VARCHAR(255),
+	market_id 			UNIQUE INT,     # out own market ID
+	googleTrack 		VARCHAR(255),   # placeID from google maps
 	name 				VARCHAR(255),
 	address 			VARCHAR(255),
-	types               VARCHAR(255),
-	
+	types               VARCHAR(255),   # supermarkt, grocery store, ...
+	ltdtude             FLOAT,
+	lngtude             FLOAT
 );
 
 CREATE TABLE products(

@@ -5,7 +5,9 @@ INSERT INTO market VALUES
 	1, 
 	"_track_", 
 	"store name", 
-	"store address, 1"
+	"store address, 1",
+	3.1415926,
+	2.71
 );
 
 INSERT INTO products VALUES
