@@ -1,6 +1,7 @@
 package View;
 
 import DBCommunication.DAOMarketInfo;
+import DBCommunication.DAOProductInfo;
 import DataObjects.Market;
 import DataObjects.MarketInput;
 import DataObjects.MarketSearch;
@@ -58,7 +59,7 @@ public class MarketView {
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/products")
     public Response getAllProducts() {
-        DAOMarketInfo dao = new DAOMarketInfo();
-        return Response.status(Response.Status.OK).entity(dao.getAllProducts()).build();
+        DAOProductInfo daoproduct = new DAOMarketInfo();
+        return Response.status(Response.Status.OK).entity(daoproduct.getAllProducts()).build();
     }
 }
