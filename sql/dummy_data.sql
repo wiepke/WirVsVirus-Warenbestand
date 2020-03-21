@@ -28,7 +28,8 @@ INSERT INTO products VALUES
 INSERT INTO market_stats VALUES
 (
 	1,
-	5,
+	1.1,
 	250,
-	15.5
+	15.5,
+	'2020-01-01 10:10:10'
 );

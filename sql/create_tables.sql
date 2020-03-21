@@ -29,7 +29,8 @@ CREATE TABLE products(
 
 CREATE TABLE market_stats (
 	market_id 		INT, #market ID
-	amountOfPeople 	INT,
+	amountOfPeople 	DECIMAL(6,4),
 	sizeOfMarket 	INT,
-	averagePresenceTime DECIMAL(6,4)
+	averagePresenceTime DECIMAL(6,4),
+	recorded_at 	TIMESTAMP
 );
