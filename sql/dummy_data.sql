@@ -21,7 +21,7 @@ INSERT INTO product_market VALUES
 INSERT INTO products VALUES
 (
 	1,
-	"product name",
+	"product name"
 );
 
 INSERT INTO market_stats VALUES
