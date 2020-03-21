@@ -15,9 +15,10 @@ public class DAOProductInfo {
 
     public List<DataObjects.Product> getProducts(final int productId) throws Exception {
         connect.connect();
-        String query = "SELECT * FROM product WHERE product_id = ?";
-        VereinfachtesResultSet vereinfachtesResultSet = connect.issueSelectStatement(query, productId);
+        String query = "select * from products left join product_market on products.product_id = " +
+                "product_market.product_id where products.product_id= ?";
 
+        VereinfachtesResultSet vereinfachtesResultSet = connect.issueSelectStatement(query, productId);
         ArrayList<DataObjects.Product> products = new ArrayList<DataObjects.Product>();;
 
         while (vereinfachtesResultSet.next()) {
