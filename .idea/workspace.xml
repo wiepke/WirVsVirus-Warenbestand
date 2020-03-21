@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10dc4e69-4a9e-4b52-b881-fd90e854b94a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WirVsVirus/WirVsVirus.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WirVsVirus/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WirVsVirus/src/main/java/Service/Calculations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WirVsVirus/src/main/java/View/MarketView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backend/Basics/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/WirVsVirus/src/main/java/DataObjects/Market.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backend/Basics/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/WirVsVirus/src/main/java/DataObjects/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backend/Communication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WirVsVirus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WirVsVirus/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WirVsVirus/src/main/java/View/MarketView.java" beforeDir="false" afterPath="$PROJECT_DIR$/WirVsVirus/src/main/java/View/MarketView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584733140190</updated>
       <workItem from="1584733144923" duration="281000" />
-      <workItem from="1584783511758" duration="5647000" />
+      <workItem from="1584783511758" duration="6301000" />
     </task>
     <servers />
   </component>
