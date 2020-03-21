@@ -9,8 +9,11 @@ public class Product {
     private Integer amount;
     private java.sql.Timestamp timeStamp;
 
-    public Product(int productId) {
+    public Product(int productId, int marketId, String name, int amount, java.sql.Timestamp timeStamp) {
         this.productId = productId;
+        this.marketId = marketId;
+        this.amount = amount;
+        this.timeStamp = timeStamp;
     }
 
 

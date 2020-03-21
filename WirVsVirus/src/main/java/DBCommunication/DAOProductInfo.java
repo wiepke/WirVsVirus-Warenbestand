@@ -1,35 +1,38 @@
 package DBCommunication;
 
+import DataObjects.Market;
+import DataObjects.Product;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.List;
 
 public class DAOProductInfo {
 
-    public ArrayList<DataObjects.Product> getProducts(final int productId) throws Exception {
-        String query = "select * from product where product_id=" + Integer.toString(productId);
-        SQLConnector con = new SQLConnector();
-        ResultSet resultSet = con.readDatabase(query);
+    private MysqlConnect connect;
 
-        //todo need to parse the result set into the Market class
+    public List<DataObjects.Product> getProducts(final int productId) throws Exception {
+        connect.connect();
+        String query = "SELECT * FROM product WHERE product_id = ?";
+        VereinfachtesResultSet vereinfachtesResultSet = connect.issueSelectStatement(query, productId);
 
-        DataObjects.Product product = new DataObjects.Product(productId);
         ArrayList<DataObjects.Product> products = new ArrayList<DataObjects.Product>();;
-        try {
-            while (resultSet.next()) {
-                int productIdReturn = resultSet.getInt(0);
-                String product_name = resultSet.getString(1);
-                int marketId = resultSet.getInt(2);
 
-                product.setName(product_name);
-                product.setMarketId(marketId);
-            }
-        } catch (SQLException e) {
-            throw e;
+        while (vereinfachtesResultSet.next()) {
+            int productIdReturn = vereinfachtesResultSet.getInt(0);
+            int marketId = vereinfachtesResultSet.getInt(1);
+            String name = vereinfachtesResultSet.getString("product_name");
+            int amount = vereinfachtesResultSet.getInt(3);
+            java.sql.Timestamp timeStamp = vereinfachtesResultSet.getTimestamp(4);
+
+            Product product = new Product(productId, marketId, name, amount, timeStamp);
+            products.add(product);
         }
 
+        connect.close();
 
-        return product;
+        return products;
     }
 }
