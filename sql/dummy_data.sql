@@ -6,6 +6,7 @@ INSERT INTO market VALUES
 	"_track_", 
 	"store name", 
 	"store address, 1",
+	"supermarkt",
 	3.1415926,
 	2.71
 );
